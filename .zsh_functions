@@ -1,0 +1,15 @@
+# ZSH FUNCTION FOR QUALITY OF LIFE IMPROVEMENTS #
+
+# BATDIFF
+batdiff () {
+  git diff --name-only --relative --diff_filter=d | xargs bat --diff
+}
+
+# LS FOR EVERY CD
+cd () {
+  if [ -n "$1" ]; then
+    builtin cd "$@" && ls
+  else
+    builtin cd ~ && pwd
+  fi
+} 
