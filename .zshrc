@@ -90,6 +90,9 @@ alias fs='fzf --height=40 --reverse --preview "bat --color=always --style=number
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+# dotfiles & config git bare repo
+alias myconfig='/usr/bin/git --git-dir=/Users/delale/.cfg/ --work-tree=/Users/delale'
+
 # NeoVim as Vim
 alias nv='nvim'
 
@@ -128,4 +131,3 @@ source ~/.zsh_functions
 
 ### PROMPT
 eval "$(starship init zsh)"
-alias myconfig='/usr/bin/git --git-dir=/Users/delale/.cfg/ --work-tree=/Users/delale'
