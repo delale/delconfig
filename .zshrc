@@ -108,6 +108,9 @@ alias python='python3'
 # Praat
 alias praat='/Applications/Praat.app/Contents/MacOS/Praat'
 
+# radian
+alias r='radian'
+
 # VSCode
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron'
 
