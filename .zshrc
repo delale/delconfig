@@ -47,9 +47,9 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 alias ls='eza --color=always --group-directories-first --icons' 
 alias la='eza -al --color=always --group-directories-first --icons'  # all files and dirs
 alias ll='eza -l --color=always --group-directories-first --icons'  # long format
-alias lt='eza -TL=3 --color=always --group-directories-first' # tree listing
-alias lta='eza -aTL=3 --color=always --group-directories-first' # tree listing all
-alias l.='eza -a | egrep "^\."'
+alias lt='eza -TL=3 --color=always --group-directories-first --icons' # tree listing
+alias lta='eza -aTL=3 --color=always --group-directories-first --icons' # tree listing all
+alias l.='eza -a -group-directories-first | egrep "^\."' # listing only hidden files and folders
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -99,7 +99,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias myconfig='/usr/bin/git --git-dir=/Users/delale/.cfg/ --work-tree=/Users/delale'
 
 # NeoVim as Vim
-alias nv='nvim'
+# Kickstart.nvim
+alias nvk='NVIM_APPNAME="nvim-kickstart" nvim'
 
 # Python
 alias pip='pip3'
