@@ -49,7 +49,7 @@ alias la='eza -al --color=always --group-directories-first --icons'  # all files
 alias ll='eza -l --color=always --group-directories-first --icons'  # long format
 alias lt='eza -TL=3 --color=always --group-directories-first --icons' # tree listing
 alias lta='eza -aTL=3 --color=always --group-directories-first --icons' # tree listing all
-alias l.='eza -a -group-directories-first | egrep "^\."' # listing only hidden files and folders
+alias l.='eza -a --group-directories-first | egrep "^\."' # listing only hidden files and folders
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
