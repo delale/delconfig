@@ -9,11 +9,11 @@ vim.g.maplocaleader = ' '
 -- Nerd Fonts
 vim.g.have_nerd_font = true
 
--- TODO: [ Setting options ]
+-- [[ Setting options ]]
 require 'options'
 
--- TODO: [ Keymaps ]
--- require 'keymaps'
+-- TODO: [[ Keymaps ]]
+require 'keymaps'
 
 -- TODO: [ Installing Lazy plugin manager ]
 -- require 'lazy-bootstrap'

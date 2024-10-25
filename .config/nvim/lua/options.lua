@@ -14,9 +14,9 @@ vim.opt.cursorline = true
 vim.opt.mouse = 'a'
 
 -- enable sharing sys clipboard
-vim.schedule(function()
-  vim.opt.clipboard = 'unnamedplus'
-end)
+-- vim.schedule(function()
+--   vim.opt.clipboard = 'unnamedplus'
+-- end)
 
 -- breakindent
 vim.opt.breakindent = true
