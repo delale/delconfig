@@ -12,11 +12,11 @@ vim.g.have_nerd_font = true
 -- [[ Setting options ]]
 require 'options'
 
--- TODO: [[ Keymaps ]]
+-- [[ Keymaps ]]
 require 'keymaps'
 
--- TODO: [ Installing Lazy plugin manager ]
--- require 'lazy-bootstrap'
+-- [[ Installing Lazy plugin manager ]]
+require 'lazy-bootstrap'
 
 -- TODO: [ Plugins ]
--- require 'lazy-plugins'
+require 'lazy-plugins'
