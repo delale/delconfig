@@ -128,7 +128,7 @@ alt-shift-b = 'workspace B'  # browser
 alt-shift-d = 'workspace D'  # documents
 alt-shift-m = 'workspace M'  # Microsoft
 alt-shift-n = 'workspace N'  # Notes
-alt-shift-s = 'workspace S'  # Praat & sound
+alt-shift-s = 'workspace S'  # sound processing
 alt-shift-t = 'workspace T'  # terminal
 alt-shift-f = 'workspace F'  # file explorer
 
@@ -146,7 +146,7 @@ alt-ctrl-shift-b = ['move-node-to-workspace B' ,'workspace B' ]
 alt-ctrl-shift-d = ['move-node-to-workspace D' ,'workspace D' ]
 alt-ctrl-shift-m = ['move-node-to-workspace M' ,'workspace M' ]
 alt-ctrl-shift-n = ['move-node-to-workspace N' ,'workspace N' ]
-alt-ctrl-shift-p = ['move-node-to-workspace P' ,'workspace P' ]
+alt-ctrl-shift-s = ['move-node-to-workspace S' ,'workspace S' ]
 alt-ctrl-shift-t = ['move-node-to-workspace T' ,'workspace T' ]
 alt-ctrl-shift-f = ['move-node-to-workspace F' ,'workspace F' ]
 
