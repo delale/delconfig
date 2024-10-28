@@ -200,4 +200,4 @@ run = "move-node-to-workspace N"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
-run = "move-node-to-workspace E"
+run = "move-node-to-workspace F"
