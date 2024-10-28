@@ -6,7 +6,8 @@ require('lazy').setup({
     -- require 'plugins/nvim-tree'  -- nvim-tree file explorer
     require 'plugins/neo-tree',   -- neo-tree file explorer
     require 'plugins/conform',    -- autoformatter
-    require 'plugins/gitsigns',
+    require 'plugins/gitsigns',   -- gitsigns
+    require 'plugins/telescope',  -- telescope
 }, 
     {
   ui = {
