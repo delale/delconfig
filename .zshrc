@@ -133,6 +133,9 @@ source "/opt/homebrew/opt/fzf/shell/key-bindings.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# zoxide
+eval "$(zoxide init zsh)"
+
 # <<< PLUGINS <<<
 
 # SOURCE CUSTOM FUNCTIONS
