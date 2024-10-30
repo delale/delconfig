@@ -179,6 +179,10 @@ if.app-id = 'com.googlecode.iterm2'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
+if.app-id = 'org.alacritty'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
 if.app-id = 'com.brave.Browser'
 run = "move-node-to-workspace B"
 
