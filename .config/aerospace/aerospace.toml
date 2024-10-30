@@ -12,7 +12,7 @@ after-login-command = []
 after-startup-command = []
 
 # Start AeroSpace at login
-start-at-login = false  # if turned to true it causes an error with MacOS Sequoia: cannot write file -> remember to create issue
+start-at-login = false  # if turned to true it causes an error with MacOS Sequoia: cannot write file 
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
