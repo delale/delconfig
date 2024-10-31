@@ -2,6 +2,10 @@
 export TERM="xterm-256color"
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboo|history|cd -|cd ..)"
 
+# GPG
+GPG_TTY=$(tty)
+export GPG_TTY
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
