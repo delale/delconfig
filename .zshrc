@@ -147,4 +147,3 @@ source ~/.zsh_functions
 
 ### PROMPT
 eval "$(starship init zsh)"
-

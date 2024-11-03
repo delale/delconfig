@@ -2,7 +2,7 @@
 
 # BATDIFF
 batdiff () {
-  git diff --name-only --relative --diff_filter=d | xargs bat --diff
+  git diff --name-only --relative --diff-filter=d | xargs bat --diff
 }
 
 # LS FOR EVERY CD
