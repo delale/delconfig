@@ -8,6 +8,7 @@ require('lazy').setup({
     require 'plugins/conform',    -- autoformatter
     require 'plugins/gitsigns',   -- gitsigns
     require 'plugins/telescope',  -- telescope
+    require 'plugins/which-key'   -- which-key
 }, 
     {
   ui = {
