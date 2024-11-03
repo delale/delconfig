@@ -14,9 +14,11 @@ cd () {
   fi
 } 
 
-# TODO:
 # LS for every CD also with zoxide
-# z () {
-#   if [ -n "$1" ]; then
-#     builtin z "$"
-# }
+zd () {
+  if [ -n "$1" ]; then
+    z "$@" && ls
+  else
+    z ~ && pwd
+  fi
+}
