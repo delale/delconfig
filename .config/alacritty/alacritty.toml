@@ -9,7 +9,7 @@ blur = true
 title = "Alacritty"
 dynamic_title = true
 decorations = "Buttonless"
-option_as_alt = "OnlyLeft"
+option_as_alt = "OnlyRight"
 
 [window.class]
 general = "Alacritty"
