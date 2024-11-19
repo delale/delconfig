@@ -16,14 +16,14 @@ export FZF_COMPLETION_TRIGGER='--'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/aledel/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('~/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/aledel/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/aledel/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "~/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "~/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/aledel/miniconda3/bin:$PATH"
+        export PATH="~/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -118,6 +118,9 @@ alias r='radian'
 
 # VSCode
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron'
+
+# Firefox
+alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
 
 # >>> PLUGINS >>>
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
