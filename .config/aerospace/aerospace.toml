@@ -208,4 +208,4 @@ run = "move-node-to-workspace F"
 
 [[on-window-detected]]
 if.app-id = 'org.praat.Praat'
-run = "move-node-to-workspace P"
+run = 'move-node-to-workspace 9'  # mapped to P
