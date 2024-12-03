@@ -27,6 +27,7 @@ else
     fi
 fi
 unset __conda_setup
+export CONDA_DEFAULT_ENV=base
 # <<< conda initialize <<<
 
 ## ZSH SETTINGS
