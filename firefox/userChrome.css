@@ -1,0 +1,35 @@
+/* hides the native tabs */
+#titlebar {
+    visibility: collapse;
+}
+
+/* hides the sidebar */
+#sidebar-header {
+    visibility: collapse !important;
+}
+
+/* hides native tabs */
+#TabsToolbar {
+    visibility: collapse;
+}
+
+#navigator-toolbox:hover #TabsToolbar {
+    visibility: visible;
+}
+
+/* leave space for window buttons */
+/*#nav-bar {*/
+/*    margin-top: -8px;*/
+/*    margin-right: 74px;*/
+/*    margin-bottom: -4px;*/
+/*}*/
+
+/* hide nav-bar */
+#nav-bar {
+    visibility: collapse;
+}
+
+#navigator-toolbox:hover #nav-bar {
+    visibility: visible;
+}
+
