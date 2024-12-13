@@ -126,8 +126,8 @@ alt-shift-o = 'workspace 8'
 alt-shift-p = 'workspace 9'
 alt-shift-b = 'workspace B'  # browser
 alt-shift-d = 'workspace D'  # documents
-alt-shift-m = 'workspace M'  # Microsoft
-alt-shift-n = 'workspace N'  # Notes
+alt-shift-m = 'workspace M'  # Outlook
+alt-shift-n = 'workspace N'  # Teams
 alt-shift-s = 'workspace S'  # sound processing
 alt-shift-t = 'workspace T'  # terminal
 alt-shift-f = 'workspace F'  # file explorer
@@ -200,7 +200,7 @@ run = "move-node-to-workspace N"
 
 [[on-window-detected]]
 if.app-id = 'md.obsidian'
-run = "move-node-to-workspace B"
+run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
@@ -208,4 +208,4 @@ run = "move-node-to-workspace F"
 
 [[on-window-detected]]
 if.app-id = 'org.praat.Praat'
-run = 'move-node-to-workspace 9'  # mapped to P
+run = 'move-node-to-workspace S'
